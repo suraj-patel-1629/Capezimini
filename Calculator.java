@@ -12,14 +12,18 @@ System.out.println("Enter the 2 digit");
 int b = sc.nextInt();
 
 if(op=='+'){
-  System.out.println(a+b);
+   System.out.println("result: ");
+  System.out.print(a+b);
 }
 else if(op=='-'){
+ System.out.println("result: ");
   System.out.println(a-b);
 }else if(op=='*'){
+ System.out.println("result: ");
   System.out.println(a*b);
 }
 else if(op=='/'){
+ System.out.println("result: ");
   System.out.println(a/b);
 }
 else{
